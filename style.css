@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Ribeye&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: 0 230px;
+}
