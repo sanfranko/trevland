@@ -19,3 +19,23 @@ body {
 .container {
     margin: 0 230px;
 }
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+}
+
+.nav__list {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+}
