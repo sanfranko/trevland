@@ -14,16 +14,10 @@ p {
 
 body {
     font-family: 'Roboto', sans-serif;
-
-    background-image: url(./img/mainback.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
 }
 
 .container {
-    margin: 0 230px;
+    margin: 0 250px;
 }
 
 .header .container {
@@ -33,6 +27,7 @@ body {
     padding: 35px 0;
     color: #fff;
 }
+
 
 .nav__list {
     display: flex;
@@ -65,8 +60,7 @@ body {
     font-weight: 400;
 }
 
-.main__subtittle {
-    margin-top: 200px;
+.welcome__subtittle {
     font-family: Gelasio;
     font-weight: 700;
     font-size: 65px;
@@ -74,7 +68,7 @@ body {
     max-width: 805px;
 }
 
-.main__tittle {
+.welcome__tittle {
     font-weight: 400;
     font-size: 18px;
     opacity: 0.6;
@@ -83,6 +77,21 @@ body {
     margin: 30px 0 40px 0;
 }
 
-.main {
+.welcome {
     color: #fff;
+
+    background-image: url(./img/mainback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    min-height: 100vh;
+    margin-top: -128px;
+
+    display: flex;
+    align-items: center;
+}
+
+.long {
+    margin-top: 140px;
 }
