@@ -97,7 +97,7 @@ body {
     margin-top: 140px;
 }
 
-.ling__main {
+.long__main {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -118,6 +118,7 @@ body {
 
 .long__ikons {
     margin-top: 50px;
+    margin-bottom: 140px;
 
     display: flex;
     justify-content: space-between;
