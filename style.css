@@ -160,4 +160,73 @@ body {
 
 .card__info {
     display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.card {
+    max-width: 265px;
+
+    margin-top: 60px;
+}
+
+.card img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.card__tittle {
+    margin: 20px 0 8px 0;
+
+    font-family: Gelasio;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.card__loc::before {
+    content: url(./img/ikons/loc.png);
+    margin-right: 7px;
+}
+
+.card__loc {
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.card__rat {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.card__rat::before {
+    content: url(./img/ikons/rat.png);
+    margin-right: 7px;
+}
+
+.card__time {
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.6;
+
+    margin: 8px 0;
+}
+
+.card__new {
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+.card__old {
+    opacity: 0.6;
+
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.long__cards {
+    display: flex;
+    gap: 73px;
+    justify-content: space-between;
 }
