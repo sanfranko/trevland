@@ -230,3 +230,7 @@ body {
     gap: 73px;
     justify-content: space-between;
 }
+
+.swiper {
+    margin-bottom: 140px;
+}
