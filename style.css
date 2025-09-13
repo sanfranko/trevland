@@ -237,6 +237,7 @@ body {
 
 .long__blogs {
     margin-top: 55px;
+    margin-bottom: 140px;
 
     display: flex;
     justify-content: center;
@@ -298,4 +299,11 @@ body {
     opacity: 0.6;
 
     margin: 5px 0 10px 0;
+}
+
+.blog__main {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
 }
