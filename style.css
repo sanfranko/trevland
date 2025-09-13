@@ -234,3 +234,68 @@ body {
 .swiper {
     margin-bottom: 140px;
 }
+
+.long__blogs {
+    margin-top: 55px;
+
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.main__img {
+    width: 555px;
+    height: 400px;
+    border-radius: 10px;
+
+    margin-bottom: 35px;
+}
+
+.main__tittle {
+    font-family: Gelasio;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.main__subtittle {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 10px 0;
+    opacity: 0.6;
+
+    max-width: 471px;
+}
+
+.blog__mini {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.mini__block {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+
+.mini__img {
+    width: 265px;
+    height: 200px;
+
+    border-radius: 10px;
+}
+
+.mini__tittle {
+    font-family: Gelasio;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.mini__subtittle {
+    font-weight: 400;
+    font-size: 18px;
+    opacity: 0.6;
+
+    margin: 5px 0 10px 0;
+}
